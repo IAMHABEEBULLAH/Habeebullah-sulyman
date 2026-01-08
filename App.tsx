@@ -37,13 +37,13 @@ const App: React.FC = () => {
                   <div className="space-y-6 text-center lg:text-left">
                     <div>
                       <p className="text-xs text-green-600 uppercase font-black tracking-widest mb-3">Electronic Mail</p>
-                      <a href="mailto:contact@habeebullah.dev" className="text-lg md:text-xl font-medium hover:text-green-400 transition-colors border-b border-white/10 pb-1 break-words">
+                      <a href="mailto:habeebullah1765@gmail.com" className="text-lg md:text-xl font-medium hover:text-green-400 transition-colors border-b border-white/10 pb-1 break-words">
                         contact@habeebullah.dev
                       </a>
                     </div>
                     <div>
                       <p className="text-xs text-green-600 uppercase font-black tracking-widest mb-3">WhatsApp / Mobile</p>
-                      <a href="https://wa.me/23490042641264" target="_blank" rel="noopener noreferrer" className="text-lg md:text-xl font-medium hover:text-green-400 transition-colors border-b border-white/10 pb-1">
+                      <a href="https://wa.me/2349042641264" target="_blank" rel="noopener noreferrer" className="text-lg md:text-xl font-medium hover:text-green-400 transition-colors border-b border-white/10 pb-1">
                         {whatsappNumberFormatted}
                       </a>
                     </div>
@@ -98,7 +98,7 @@ const App: React.FC = () => {
 
       <footer className="py-10 md:py-16 border-t border-white/5 text-center bg-black">
         <p className="text-slate-600 text-sm tracking-widest uppercase font-bold">
-          Made with <span className="text-green-500">♥</span> & React
+         <span className="text-green-500"></span> 
         </p>
         <p className="text-slate-800 text-xs mt-2 uppercase font-black">
           © {new Date().getFullYear()} Habeebullah Sulyman
