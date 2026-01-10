@@ -11,7 +11,7 @@ import { useReveal } from './hooks/useReveal';
 
 const App: React.FC = () => {
   const containerRef = useReveal();
-  const whatsappNumberFormatted = "+234 900 426 41264";
+  const whatsappNumberFormatted = "+234 90 426 41264";
 
   return (
     <div className="relative selection:bg-green-500/30 selection:text-green-100" ref={containerRef}>
